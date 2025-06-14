@@ -1,0 +1,178 @@
+/* staff.css */
+:root {
+    --bg-color: #000000;
+    --snd-bg-color: #000000;
+    --text-color: #F7F7F7;
+    --main-color: #A31D1D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, var(--bg-color) 0%, #1a1a1a 100%);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.staff-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05); /* Slight transparency */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px); /* Subtle blur for modern look */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.staff-container h2 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.staff-container p {
+    text-align: center;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.message {
+    background: rgba(163, 29, 29, 0.2); /* Semi-transparent dark red */
+    color: var(--text-color);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid var(--main-color);
+    transition: all 0.3s ease;
+}
+
+.message:hover {
+    background: rgba(163, 29, 29, 0.3);
+}
+
+.staff-section {
+    margin-bottom: 30px;
+}
+
+.staff-section h3 {
+    color: var(--text-color);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-left: 4px solid var(--main-color);
+    padding-left: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    color: var(--text-color);
+}
+
+table th {
+    background: var(--main-color);
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+table tr {
+    transition: background 0.3s ease;
+}
+
+table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+table tr:hover {
+    background: rgba(163, 29, 29, 0.2);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: var(--main-color);
+}
+
+.reply-btn {
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.reply-btn:hover {
+    background: #8b1818; /* Darker red */
+    transform: translateY(-2px);
+}
+
+.logout-btn {
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+    background: var(--main-color);
+    color: var(--text-color);
+    border-radius: 0.5rem;
+}
+
+.back-link {
+    text-align: center;
+}
+
+.back-link a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.back-link a:hover {
+    color: #F7F7F7;
+    text-decoration: underline;
+}

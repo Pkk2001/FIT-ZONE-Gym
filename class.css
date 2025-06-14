@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-color: #1a1a1a;
+    --text-color: #ffffff;
+    --main-color: #d32f2f;
+    --secondary-color: #f5f5f5;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 10%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+.nav-btn {
+    padding: 1.2rem 3rem;
+    background: linear-gradient(135deg, var(--main-color), #b71c1c);
+    color: var(--text-color);
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    background: linear-gradient(135deg, #b71c1c, var(--main-color));
+    box-shadow: 0 0 15px rgba(211, 47, 47, 0.5);
+}
+
+.class-section {
+    padding: 12rem 10% 4rem;
+    min-height: 100vh;
+}
+
+.class-container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.class-container h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+}
+
+.schedule-table th {
+    background: var(--main-color);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.schedule-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.class-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 50rem;
+    margin: 2rem auto;
+}
+
+.class-form input,
+.class-form select {
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    color: var(--text-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.class-form input::placeholder,
+.class-form select {
+    color: var(--secondary-color);
+}
+
+.class-btn {
+    padding: 1.2rem;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.class-btn:hover {
+    background: #b71c1c;
+}
+
+.error {
+    color: red;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.success {
+    color: green;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+/* Message Table Styling */
+.message-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: #1a1a1a; /* Dark background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.message-table th, .message-table td {
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+    color: #F7F7F7;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.message-table th {
+    background: #A31D1D;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.message-table tbody tr {
+    transition: background 0.2s ease;
+}
+
+.message-table tbody tr:hover {
+    background: rgba(163, 29, 29, 0.2); /* Subtle #A31D1D hover */
+}
+
+.message-table tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.02); /* Slightly lighter for zebra striping */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .message-table {
+        font-size: 12px;
+    }
+
+    .message-table th, .message-table td {
+        padding: 12px;
+    }
+
+    .class-container {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .class-section {
+        padding: 10rem 5% 2rem;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    .class-form {
+        max-width: 100%;
+    }
+}

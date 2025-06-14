@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="blog.css">
+    <title>FitZone Blog | Fitness, Nutrition & More</title>
+</head>
+<body>
+    <header>
+        <a href="afterindex.php" class="back-link">
+            <i class='bx bx-arrow-back'></i> Go Back to Homepage
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the FitZone <span>Blog</span></h1>
+            <p>Your ultimate resource for fitness, nutrition, exercises, and expert tips to fuel your journey.</p>
+        </div>
+    </section>
+
+    <!-- Fitness Section -->
+    <section class="blog-section" id="fitness">
+        <h2>Fitness <span>Insights</span></h2>
+        <div class="blog-container">
+            <div class="blog-post">
+                <img src="./img/cardio.jpg" alt="Cardio Benefits">
+                <h3>Boost Your Cardio Game</h3>
+                <p>Cardiovascular exercise is key to a healthy heart and improved stamina. Whether you're running, cycling, or swimming, aim for at least 20-30 minutes daily to see benefits like better endurance, calorie burn, and stress relief.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./img/strength training.png" alt="Strength Training">
+                <h3>Strength Training for Beginners</h3>
+                <p>Start building muscle with compound lifts like squats, deadlifts, and bench presses. Use light weights to master form, then progressively increase resistance. It boosts metabolism and strengthens bones too!</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition Section -->
+    <section class="blog-section" id="nutrition">
+        <h2>Nutrition <span>Guides</span></h2>
+        <div class="blog-container">
+            <div class="blog-post">
+                <img src="./img/nutrition1.jpg" alt="Protein Power">
+                <h3>The Power of Protein</h3>
+                <p>Protein repairs muscles post-workout and keeps you full longer. Aim for 1.6-2.2g per kg of body weight daily. Great sources include chicken, eggs, tofu, and whey—mix it up for variety!</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./img/nutrition2.jpg" alt="Healthy Carbs">
+                <h3>Carbs: Your Energy Source</h3>
+                <p>Don’t fear carbs—choose complex ones like oats, sweet potatoes, and quinoa. They provide sustained energy for intense workouts and help replenish glycogen stores. Timing matters: eat them pre- or post-exercise.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exercises Section -->
+    <section class="blog-section" id="exercises">
+        <h2>Exercise <span>Tutorials</span></h2>
+        <div class="blog-container">
+            <div class="blog-post">
+                <img src="./img/squat.jpg" alt="Perfect Squat">
+                <h3>Master the Perfect Squat</h3>
+                <p>Stand with feet shoulder-width apart, push hips back, and lower until thighs are parallel to the ground. Keep your chest up and knees over toes. Add dumbbells for an extra challenge!</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./img/plank.jpg" alt="Plank Power">
+                <h3>Plank Like a Pro</h3>
+                <p>Hold a forearm plank for 30-60 seconds to build core strength. Engage your abs, keep a straight line from head to heels, and avoid sagging hips. Try side planks for variety.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="blog-section" id="tips">
+        <h2>Fitness <span>Tips</span></h2>
+        <div class="blog-container">
+            <div class="blog-post">
+                <img src="./img/tip1.jpg" alt="Stay Hydrated">
+                <h3>Stay Hydrated, Stay Strong</h3>
+                <p>Drink 2-3 liters of water daily, more if you’re sweating heavily. Proper hydration boosts performance, aids recovery, and prevents cramps. Add electrolytes during long sessions.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-post">
+                <img src="./img/tip2.jpeg" alt="Rest Days">
+                <h3>The Power of Rest Days</h3>
+                <p>Muscles grow during recovery, not workouts. Take 1-2 rest days weekly to avoid burnout and injury. Light stretching or yoga on off days keeps you limber.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 FitZone Fitness Center. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="#" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            reset: true,
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease-in-out'
+        });
+
+        sr.reveal('.hero-content', { delay: 200, origin: 'top' });
+        sr.reveal('.blog-section h2', { delay: 200, origin: 'top' });
+        sr.reveal('.blog-post', { delay: 200, origin: 'bottom', interval: 200 });
+    </script>
+</body>
+</html>

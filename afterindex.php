@@ -1,0 +1,340 @@
+<?php
+session_start();
+
+$server = "localhost";
+$user = "root";
+$password = "";
+$dbase = "fitzone";
+
+$conn = mysqli_connect($server, $user, $password, $dbase);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$fullname = 'Guest'; 
+if (isset($_SESSION['email'])) {
+    $email = $_SESSION['email'];
+    
+    $stmt = mysqli_prepare($conn, "SELECT fullname FROM users WHERE email = ?");
+    if ($stmt === false) {
+        die("Prepare failed: " . mysqli_error($conn));
+    }
+    
+    mysqli_stmt_bind_param($stmt, "s", $email);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+    
+    if (mysqli_num_rows($result) > 0) {
+        $row = mysqli_fetch_assoc($result);
+        $fullname = $row['fullname'] ?? 'Guest'; 
+    } else {
+        echo "No user found with email: " . htmlspecialchars($email); 
+    }
+    mysqli_stmt_close($stmt);
+} else {
+    echo "Session email not set.";
+}
+
+mysqli_close($conn);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="afterstyle.css">
+    <title>FitZone Fitness Center</title>
+</head>
+<body>
+    <header>
+        <a href="#home" class="logo">FitZone Fitness 
+            <span>Center</span>
+        </a>
+        <div class='bx bx-menu' id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#plans">Pricing</a></li>
+            <li><a href="#Trainers">Trainers</a></li>
+            <li><a href="#review">Review</a></li>
+        </ul>
+        <div class="top-btn">
+            <div class="user-profile">
+                <i class='bx bx-user'></i>
+                <span class="user-fullname"><?php echo htmlspecialchars($fullname); ?></span>
+                <div class="dropdown-menu">
+                    <a href="class.php" class="class-bln">My GYM Class</a>
+                    <a href="blog.html" class="blog-btn">Blog</a>
+                    <a href="index.html" class="logout-btn">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Beast</h3>
+            <h1>Mode: <span class="multiple-text"></span></h1>
+            <h2></h2>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h5 class="heading">Our <span>Services</span></h5>
+        <div class="services-container">
+            <div class="service-box">
+                <img src="./img/cardio.jpg" alt="Cardio">
+                <h4>Cardio</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/strength training.png" alt="Strength Training">
+                <h4>Strength Training</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/yoga.jpg" alt="Yoga">
+                <h4>Yoga</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/fat lose.jpg" alt="Fat Loss">
+                <h4>Fat Loss</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/bulking.jpg" alt="Bulking">
+                <h4>Bulking</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/physical fitness.jpg" alt="Physical Fitness">
+                <h4>Physical Fitness</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/pilates.jpg" alt="Pilates">
+                <h4>Pilates</h4>
+            </div>
+            <div class="service-box">
+                <img src="./img/crossfit.jpg" alt="CrossFit">
+                <h4>CrossFit</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/about.jpg" alt="Gym Interior">
+        </div>
+        <div class="about-content">
+            <h6 class="heading">Why Choose <span>Us?</span></h6>
+            <p>At FitZone Fitness Center, we are more than just a gym. We are a community of fitness enthusiasts dedicated to helping you reach your goals, whether it's weight loss, muscle gain, or overall wellness.</p>
+            <ul>
+                <li><i class='bx bx-check'></i> Certified Trainers with years of experience</li>
+                <li><i class='bx bx-check'></i> State-of-the-art Equipment for all fitness levels</li>
+                <li><i class='bx bx-check'></i> Personalized Training Plans tailored to your needs</li>
+                <li><i class='bx bx-check'></i> Group Fitness Classes including Yoga, Zumba & HIIT</li>
+                <li><i class='bx bx-check'></i> 24/7 Access so you can work out anytime</li>
+            </ul>
+            <a href="#plans" class="nav-btn">Join Now</a>
+        </div>
+    </section>
+
+    <section class="plans" id="plans">
+        <h6 class="heading">Our <span>Plans</span></h6>
+        <div class="plans-container">
+            <div class="plan-box">
+                <h3>Basic</h3>
+                <h4><span>$10</span>/Month</h4>
+                <ul>
+                    <li><i class='bx bx-check'></i> Smart Workout Plans</li>
+                    <li><i class='bx bx-check'></i> At Home Workouts</li>
+                    <li><i class='bx bx-x'></i> Personal Trainer</li>
+                    <li><i class='bx bx-x'></i> Nutrition Guide</li>
+                </ul>
+                <a href="join.php" class="plan-btn">Join Now</a>
+            </div>
+            <div class="plan-box">
+                <h3>Standard</h3>
+                <h4><span>$20</span>/Month</h4>
+                <ul>
+                    <li><i class='bx bx-check'></i> All Basic Plan Features</li>
+                    <li><i class='bx bx-check'></i> Personal Trainer</li>
+                    <li><i class='bx bx-check'></i> Gym Equipment Access</li>
+                    <li><i class='bx bx-x'></i> Personalized Diet Plan</li>
+                </ul>
+                <a href="join.php" class="plan-btn">Join Now</a>
+            </div>
+            <div class="plan-box">
+                <h3>Premium</h3>
+                <h4><span>$30</span>/Month</h4>
+                <ul>
+                    <li><i class='bx bx-check'></i> All Standard Plan Features</li>
+                    <li><i class='bx bx-check'></i> Personalized Diet Plan</li>
+                    <li><i class='bx bx-check'></i> 24/7 Gym Access</li>
+                    <li><i class='bx bx-check'></i> Exclusive Fitness Classes</li>
+                </ul>
+                <a href="join.php" class="plan-btn">Join Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="Trainers" id="Trainers">
+        <h2 class="heading">Our <span>Trainers</span></h2>
+        <div class="trainers-container">
+            <div class="trainer-box">
+                <img src="./img/trainer 1.jpg" alt="John Marston">
+                <h3>John Marston</h3>
+                <p>Expert in strength training and endurance.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://x.com/?lang=en"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="trainer-box">
+                <img src="./img/trainer 2.jpeg" alt="Jack Marston">
+                <h3>Jack Marston</h3>
+                <p>Specialist in HIIT and cardio workouts.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://x.com/?lang=en"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="trainer-box">
+                <img src="./img/trainer 3.jpg" alt="Bonnie MacFarlane">
+                <h3>Bonnie MacFarlane</h3>
+                <p>Yoga and flexibility training expert.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://x.com/?lang=en"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2 class="heading">Client <span>Reviews</span></h2>
+        <div class="review-container">
+            <div class="review-box">
+                <img src="./img/Client 1.jpg" alt="Mike Tyson">
+                <h4>Mike Tyson</h4>
+                <p>"FitZone has completely transformed my fitness journey. The trainers are incredible, and the environment is motivating! Highly recommend!"</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+            </div>
+            <div class="review-box">
+                <img src="./img/Client 2.jpg" alt="Solomon Reed">
+                <h4>Solomon Reed</h4>
+                <p>"Amazing facilities and equipment! I love the personal training sessions; they are tailored to my needs and keep me progressing."</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                </div>
+            </div>
+            <div class="review-box">
+                <img src="./img/Client 3.jpg" alt="Kurt Hansen">
+                <h4>Kurt Hansen</h4>
+                <p>"The best gym I’ve been to! The group classes are fun and challenging. The staff is super friendly and always willing to help!"</p>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-cta" id="contact-cta">
+        <div class="contact-cta-content">
+            <div class="contact-cta-text">
+                <h2 class="heading">Contact <span>Us</span></h2>
+                <p>Ready to kickstart your fitness journey? Reach out to our team for personalized guidance and support!</p>
+                <a href="contact.php" class="cta-btn">Get Started</a>
+            </div>
+            <div class="contact-cta-img">
+                <img src="./img/contact-us.jpg" alt="Contact Us">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 FitZone Fitness Center. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".multiple-text", {
+            strings: ["ON!", "STRONG!", "FIT!", "BEST!"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+
+        const sr = ScrollReveal({
+            reset: true,
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease-in-out'
+        });
+
+        sr.reveal('.home-content h3', { delay: 200, origin: 'top' });
+        sr.reveal('.home-content h1', { delay: 400, origin: 'bottom' });
+        sr.reveal('.services h5', { delay: 200, origin: 'top' });
+        sr.reveal('.service-box', { delay: 200, origin: 'bottom', interval: 200 });
+        sr.reveal('.about-img', { delay: 200, origin: 'left' });
+        sr.reveal('.about-content', { delay: 400, origin: 'right' });
+        sr.reveal('.plans h6', { delay: 200, origin: 'top' });
+        sr.reveal('.plan-box', { delay: 200, origin: 'bottom', interval: 200 });
+        sr.reveal('.Trainers h2', { delay: 200, origin: 'top' });
+        sr.reveal('.trainer-box', { delay: 200, origin: 'bottom', interval: 200 });
+        sr.reveal('.review .heading', { delay: 200, origin: 'top' });
+        sr.reveal('.review-box', { delay: 200, origin: 'bottom', interval: 200 });
+        sr.reveal('.contact-cta .heading', { delay: 200, origin: 'top' });
+        sr.reveal('.contact-cta-text p', { delay: 300, origin: 'left' });
+        sr.reveal('.cta-btn', { delay: 400, origin: 'bottom' });
+        sr.reveal('.contact-cta-img', { delay: 500, origin: 'right' });
+
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.querySelector('.navbar');
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+            menuIcon.classList.toggle('bx-x');
+        });
+
+        const userProfile = document.querySelector('.user-profile');
+        const dropdownMenu = document.querySelector('.dropdown-menu');
+        userProfile.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('active');
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!userProfile.contains(event.target)) {
+                dropdownMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

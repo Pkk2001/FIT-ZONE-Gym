@@ -1,0 +1,106 @@
+/* Login Page Styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+:root {
+    --bg-color: #000000 ;
+    --snd-bg-color: #000000;
+    --text-color: #F7F7F7;
+    --main-color: #A31D1D;
+
+
+
+}
+.error-message {
+    background: rgba(163, 29, 29, 0.2); /* Semi-transparent red background using --main-color */
+    color: var(--main-color); /* Red text color */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid var(--main-color);
+}
+.login-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    color: var(--text-color);
+}
+
+.login-form h2 {
+    margin-bottom: 15px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background: #222;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-box i {
+    color: var(--main-color);
+    margin-right: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--main-color);
+}
+
+.login-btn {
+    background: var(--main-color);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background: var(--main-color);
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+.employer-link {
+    margin-top: 1rem;
+    font-size: 14px;
+    text-align: center;
+    color: var(--text-color); 
+}
+
+.employer-link a {
+    color: var(--main-color); 
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.employer-link a:hover {
+    text-decoration: underline;
+}

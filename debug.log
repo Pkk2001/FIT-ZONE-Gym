@@ -1,0 +1,1988 @@
+Session Start: Array
+(
+)
+
+Session Start: Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Session Start: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admun123
+)
+
+Admin Login Failed: Invalid credentials
+Session Start: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Session Start: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start: Array
+(
+)
+
+Session Start: Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yohan@gmail.com
+    [password] => 123
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yohan@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yohan@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => jo@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => jo@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Invalid password
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Invalid password
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Invalid password
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => prabath7689@gmail.com
+    [password] => 123
+)
+
+Admin Login Failed: Invalid credentials
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => prabath7689@gmail.com
+    [password] => 1234
+)
+
+Admin Login Failed: Invalid credentials
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => pit@gmail.com
+    [password] => 123
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => pit@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jone@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jone@gmail.com
+    [password] => 1234
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => pit@gmail.com
+    [password] => 123
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => pkk@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => pkk@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => vahala@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Admin.php Session: Array
+(
+    [email] => vahala@gmail.com
+    [role] => staff
+)
+
+Admin.php: Unauthorized, redirecting to login.php
+Session Start (employer_login.php): Array
+(
+    [email] => vahala@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => vahala@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => vahala@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Invalid password
+Session Start (employer_login.php): Array
+(
+    [email] => vahala@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => vahala@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => 123
+)
+
+Admin Login Failed: Invalid credentials
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => yo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => yo@gmail.com
+    [role] => staff
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jj@gmail.com
+    [password] => 1234
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => re@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => ra@gmail.com
+    [password] => 123
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jo@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jj@gmail.com
+    [password] => 123
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => jo@gmail.com
+    [password] => 1234
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => pit@gmail.com
+    [password] => 1234
+)
+
+Staff Login Failed: Invalid password
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => pit@gmail.com
+    [password] => 123
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => prabath7689@gmail.com
+    [password] => asd
+)
+
+Admin Login Failed: Invalid credentials
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => prabath7689@gmail.com
+    [password] => adsd
+)
+
+Staff Login Failed: Staff not found
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => 1234
+)
+
+Admin Login Failed: Invalid credentials
+Session Start (employer_login.php): Array
+(
+    [email] => prabath7689@gmail.com
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+)
+
+Admin.php: Unauthorized, redirecting to login.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => pit@gmail.com
+    [password] => 123
+)
+
+Staff Login Success: Redirecting to staff.php
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => admin123@gmail.com
+    [password] => admin123
+)
+
+Admin Login Success: Redirecting to admin.php
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Admin.php Session: Array
+(
+    [email] => admin123@gmail.com
+    [role] => admin
+)
+
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+Not a POST request
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => admin
+    [email] => prabath7689@gmail.com
+    [password] => asd
+)
+
+Admin Login Failed: Invalid credentials
+Session Start (employer_login.php): Array
+(
+)
+
+POST Data: Array
+(
+    [login_type] => staff
+    [email] => prabath7689@gmail.com
+    [password] => asd
+)
+
+Staff Login Failed: Staff not found
